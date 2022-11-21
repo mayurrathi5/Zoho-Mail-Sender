@@ -13,7 +13,7 @@ msg['To'] = recipient
 # SMTP Server
 server = smtplib.SMTP_SSL('smtppro.zoho.in', 465)
 # SMTP Server Login Credentials
-server.login(sender, 'password123')
+server.login(sender, 'password@123')
 # Gives Send Mail Request to SMTP Server
 server.sendmail(sender, recipient, msg.as_string())
 # Quit or Logout from SMTP Server 
